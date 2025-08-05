@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+    background-color: lightblue;
+}
+
+.flexbox-container {
+    display: flex;
+    background-color: limegreen;
+    /* start, end, center, space-between, space-around*/
+    justify-content: space-evenly;
+    /* stretch, start, end, center */
+    align-items: center;
+
+}
+
+.flexbox-item {
+    width: 200px;
+    background-color: salmon;
+    border: 3px solid #333;
+    margin: 10px;
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+    background-color: black;
+}
+.flexbox-item-2 {
+    min-height: 200px;
+}
+.flexbox-item-3 {
+    min-height: 300px;
+}
